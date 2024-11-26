@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD WebEdu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <img src="LOGO.WebEdu.jpg" alt="Logo WebEdu" class="logo-webedu">
+
+    <h1 class="h1-texto">WebEdu - Educação Profissional de Qualidade</h1>
+
+    <div class="container">
+        <h2>Cadastro de Usuário</h2>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+        <div class="button-container-horizontal">
+            <button type="submit" class="save-btn" id="btnSalvar">Salvar</button>
+            <button type="button" class="save-btn" onclick="window.location.href='usuarios.html'">Lista de Usuários</button>
+        </div>
+        
+        
+    </div>
+</body>
+
+</html>
